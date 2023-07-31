@@ -19,7 +19,7 @@ from langchain.agents.load_tools import get_all_tool_names, load_tools
 from langchain.chains.llm import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.chat_models.base import BaseChatModel
-from langchain.experimental import AutoGPT
+from langchain_experimental.autonomous_agents.autogpt.agent import AutoGPT
 from langchain.experimental.autonomous_agents.autogpt.output_parser import (
     AutoGPTOutputParser,
     BaseAutoGPTOutputParser,
