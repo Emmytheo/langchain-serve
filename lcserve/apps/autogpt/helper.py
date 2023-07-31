@@ -20,12 +20,12 @@ from langchain.chains.llm import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.chat_models.base import BaseChatModel
 from langchain_experimental.autonomous_agents.autogpt.agent import AutoGPT
-from langchain.experimental.autonomous_agents.autogpt.output_parser import (
+from langchain_experimental.autonomous_agents.autogpt.output_parser import (
     AutoGPTOutputParser,
     BaseAutoGPTOutputParser,
 )
-from langchain.experimental.autonomous_agents.autogpt.prompt import AutoGPTPrompt
-from langchain.experimental.autonomous_agents.autogpt.prompt_generator import (
+from langchain_experimental.autonomous_agents.autogpt.prompt import AutoGPTPrompt
+from langchain_experimental.autonomous_agents.autogpt.prompt_generator import (
     FINISH_NAME,
 )
 from langchain.schema import AIMessage, Document, HumanMessage, SystemMessage
