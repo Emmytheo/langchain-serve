@@ -216,10 +216,10 @@ langchain-serve currently wraps following apps as a service to be deployed on Ji
 
 # 🧰 Usage
 
-Let's first install `langchain-serve` using pip.
+Let's first install this modified version of `langchain-serve` using pip.
 
 ```bash
-pip install langchain-serve
+pip install 'langchain-serve @ git+https://github.com/Emmytheo/langchain-serve.git'
 ```
 
 ## 🔄 REST APIs using `@serving` decorator

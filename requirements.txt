@@ -8,3 +8,4 @@ nest-asyncio
 textual
 toml
 slack_bolt
+langchain_experimental
